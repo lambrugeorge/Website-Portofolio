@@ -8,22 +8,24 @@ function Home() {
       <div className='about'>
         <h2>Hi, My name is Adrian</h2>
         <div className='prompt'>
-          <p>A Front end developer with a passion for learning and creating.</p>
-          <a href="https://www.linkedin.com/in/adrian-profile" target="_blank" rel="noopener noreferrer">
-            <LinkedIn />
-          </a>
-          <a href="mailto:adrian@example.com" target="_blank" rel="noopener noreferrer">
-            <Email />
-          </a>
-          <a href="https://github.com/adrian-profile" target="_blank" rel="noopener noreferrer">
-            <GitHub />
-          </a>
+          <p>A Frontend Developer with a passion for learning and creating.</p>
+          <div className='social-links'>
+            <a href="https://www.linkedin.com/in/lambru-adrian/" target="_blank" rel="noopener noreferrer">
+              <LinkedIn />
+            </a>
+            <a href="mailto:lambru_george@yahoo.com" target="_blank" rel="noopener noreferrer">
+              <Email />
+            </a>
+            <a href="https://github.com/lambrugeorge" target="_blank" rel="noopener noreferrer">
+              <GitHub />
+            </a>
+          </div>
         </div>
       </div>
       <div className='skills'>
         <h1>Skills</h1>
         <div className='category'>
-          <h2>Front-end</h2>
+          <h2>Frontend</h2>
           <p>
             ReactJS, HTML, CSS, JavaScript, PWAs, Material UI, React Hooks, React Router, React DOM, 
             Deployment and Hosting, Redux Thunk, Test Automation, Jest, Testing, Redux Saga, 
@@ -31,7 +33,7 @@ function Home() {
           </p>
         </div>
         <div className='category'>
-          <h2>Back-end</h2>
+          <h2>Backend</h2>
           <p>Node.js, RESTful API, MongoDB, Express.js, Firebase, SQL, PostgreSQL</p>
         </div>
         <div className='category'>

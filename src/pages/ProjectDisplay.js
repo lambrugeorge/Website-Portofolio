@@ -11,15 +11,34 @@ function ProjectDisplay() {
   return (
     <div className="project">
       <h1>{project.name}</h1>
-      <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
-        <img src={project.image} alt={`${project.name} snapshot`} />
-      </a>
+      <img src={project.image} alt={`${project.name} snapshot`} />
       <p>
         <b>Skills:</b> {project.skills}
       </p>
-      <a href={project.github} target="_blank" rel="noopener noreferrer">
-        <GitHub />
-      </a>
+      {project.github && (
+        <a href={project.github} target="_blank" rel="noopener noreferrer">
+          <GitHub />
+        </a>
+      )}
+      {project.liveDemo && (
+        <a href={project.liveDemo} target="_blank" rel="noopener noreferrer">
+          Live Demo
+        </a>
+      )}
+      {project.subProjects && (
+        <div className="subProjects">
+          <h2>Sub Projects</h2>
+          {project.subProjects.map((subProject, index) => (
+            <div key={index} className="subProject">
+              <h3>{subProject.name}</h3>
+              <img src={subProject.image} alt={`${subProject.name} snapshot`} />
+              <a href={subProject.github} target="_blank" rel="noopener noreferrer">
+                <GitHub />
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
