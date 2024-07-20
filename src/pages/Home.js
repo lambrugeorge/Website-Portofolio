@@ -1,7 +1,6 @@
-import React from 'react'
-import { LinkedIn, Email, GitHub } from '@material-ui/icons'
-import '../styles/Home.css'
-
+import React from 'react';
+import { LinkedIn, Email, GitHub } from '@material-ui/icons';
+import '../styles/Home.css';
 
 function Home() {
   return (
@@ -10,16 +9,26 @@ function Home() {
         <h2>Hi, My name is Adrian</h2>
         <div className='prompt'>
           <p>A Front end developer with a passion for learning and creating.</p>
-          <LinkedIn />
-          <Email />
-          <GitHub />
+          <a href="https://www.linkedin.com/in/adrian-profile" target="_blank" rel="noopener noreferrer">
+            <LinkedIn />
+          </a>
+          <a href="mailto:adrian@example.com" target="_blank" rel="noopener noreferrer">
+            <Email />
+          </a>
+          <a href="https://github.com/adrian-profile" target="_blank" rel="noopener noreferrer">
+            <GitHub />
+          </a>
         </div>
       </div>
       <div className='skills'>
         <h1>Skills</h1>
         <div className='category'>
           <h2>Front-end</h2>
-          <p>ReactJS, HTML, CSS, JavaScript,(PWAs), Material UI, React Hooks, React Router, React DOM, Deployment and Hosting, Redux Thunk, Test Automation, Jest, Testing, Redux Saga, Apollo GraphQL, React-Redux</p>
+          <p>
+            ReactJS, HTML, CSS, JavaScript, PWAs, Material UI, React Hooks, React Router, React DOM, 
+            Deployment and Hosting, Redux Thunk, Test Automation, Jest, Testing, Redux Saga, 
+            Apollo GraphQL, React-Redux
+          </p>
         </div>
         <div className='category'>
           <h2>Back-end</h2>
@@ -31,7 +40,7 @@ function Home() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;

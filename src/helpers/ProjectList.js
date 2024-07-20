@@ -7,7 +7,9 @@ export const ProjectList = [
        {
            name: 'Proiectul 1',
            image: Proj1,
-           skills: "Javascript , Node.js"
+           skills: "JavaScript, React, CSS",
+           github: "https://github.com/lambrugeorge/NexShop-clothes",
+           liveDemo: "https://adorable-cocada-a50fa9.netlify.app/"
        },
        {
               name: 'Proiectul 2',
