@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';
-import { GitHub } from '@material-ui/icons';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/ProjectDisplay.css';
 
 function ProjectDisplay() {
@@ -17,7 +17,7 @@ function ProjectDisplay() {
       </p>
       {project.github && (
         <a href={project.github} target="_blank" rel="noopener noreferrer">
-          <GitHub />
+          <GitHubIcon />
         </a>
       )}
       {project.liveDemo && (
@@ -33,7 +33,7 @@ function ProjectDisplay() {
               <h3>{subProject.name}</h3>
               <img src={subProject.image} alt={`${subProject.name} snapshot`} />
               <a href={subProject.github} target="_blank" rel="noopener noreferrer">
-                <GitHub />
+                <GitHubIcon />
               </a>
             </div>
           ))}

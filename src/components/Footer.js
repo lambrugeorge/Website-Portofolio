@@ -1,5 +1,8 @@
 import React from 'react';
-import { Instagram, GitHub, Facebook, LinkedIn } from '@material-ui/icons';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../styles/Footer.css';
 
 function Footer() {
@@ -7,16 +10,16 @@ function Footer() {
     <footer className='footer'>
       <div className='socialMedia'>
         <a href="https://www.facebook.com/lambrugeorge/" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <Facebook />
+          <FacebookIcon />
         </a>
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <Instagram />
+          <InstagramIcon />
         </a>
         <a href="https://github.com/lambrugeorge" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <GitHub />
+          <GitHubIcon />
         </a>
         <a href="https://www.linkedin.com/in/lambru-adrian/" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <LinkedIn />
+          <LinkedInIcon />
         </a>
       </div>
       <p>&copy; 2024 Lambru A.</p>
