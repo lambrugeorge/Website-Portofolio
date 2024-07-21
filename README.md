@@ -3,7 +3,7 @@
 Welcome to my personal portfolio! This project is designed to showcase my skills and work in web development. Using the latest technologies and best practices, I have created a modern and interactive portfolio that highlights my experience and achievements.
 
 ## 🎨 Live Demo
-![Portfolio Screenshot](./path/to/image/1.png)
+![Portfolio Screenshot](1.png)
 
 You can view my portfolio live here to see the project in action: [Live Demo](https://669cf61d28818d11ae4f9ebb--portofolioadrian.netlify.app/)
 
