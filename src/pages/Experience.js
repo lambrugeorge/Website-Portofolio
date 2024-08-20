@@ -64,6 +64,7 @@ function Experience() {
           <p>JavaScript: The Advanced Concepts, Frontend</p>
           <p>Complete React Developer in 2024 (w/ Redux, Hooks, GraphQL)</p>
           <p>JavaScript Web Projects: 20 Projects to Build Your Portfolio</p>
+          <p>The Complete Junior to Senior Web Developer Roadmap (2024)</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>

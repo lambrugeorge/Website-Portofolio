@@ -123,11 +123,15 @@ export const ProjectList = [
     {
         name: 'RoboFriends',
         image: Proj3,
-        skills: "JavaScript, Node.js, React, React DOM, Tachyons, CSS, HTML, JSON"
+        skills: "JavaScript, Node.js, React, React DOM, Tachyons, CSS, HTML, JSON",
+        github: "https://github.com/lambrugeorge/robofriends",
+        liveDemo: "https://robo-friends-tau.vercel.app/"
     },
     {
         name: 'Face-Detection Web App',
         image: Proj4,
-        skills: "React, Tachyons, Clarifai API, Node.js, Express.js, Knex, Bcrypt, PostgreSQL"
+        skills: "React, Tachyons, Clarifai API, Node.js, Express.js, Knex, Bcrypt, PostgreSQL",
+        github: "https://github.com/lambrugeorge/face-recognition-brain",
+        liveDemo: "https://face-recognition-phi-henna.vercel.app/"
     }
 ];
