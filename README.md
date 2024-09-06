@@ -5,7 +5,7 @@ Welcome to my personal portfolio! This project is designed to showcase my skills
 ## 🎨 Live Demo
 ![Portfolio Screenshot](1.png)
 
-You can view my portfolio live here to see the project in action: [Live Demo](https://669cf61d28818d11ae4f9ebb--portofolioadrian.netlify.app/)
+You can view my portfolio live here to see the project in action: [Live Demo](https://adrian-portofolio.vercel.app/)
 
 ## 🛠 Technologies Used
 
