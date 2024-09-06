@@ -32,6 +32,8 @@ export const ProjectList = [
         name: 'JavaScript Web Projects: 20 Projects to Build',
         image: Proj2,
         skills: "JavaScript, HTML, CSS, Fetch API, AJAX, LocalStorage, BootStrap 5",
+        github: "https://github.com/lambrugeorge/javascript20-projects",
+        liveDemo: "https://github.com/lambrugeorge/javascript20-projects",
         subProjects: [
             {
                 name: 'Pong Game',
