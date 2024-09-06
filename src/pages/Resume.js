@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Resume.css';
-import resumeImage from '../assets/resume.jpg'; // Importăm imaginea
-import resumePDF from '../assets/resume.pdf';   // Importăm PDF-ul
+import resumeImage from '../assets/resume.jpg';
+import resumePDF from '../assets/resume.pdf';
 
 function Resume() {
   return (
