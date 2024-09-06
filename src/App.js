@@ -6,7 +6,7 @@ import Experience from './pages/Experience';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ProjectDisplay from './pages/ProjectDisplay';
-
+import Resume from './pages/Resume';
 
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path="/project/:id" element={<ProjectDisplay />} />
           <Route path='/experience' element={<Experience />} />
+          <Route path='/resume' element={<Resume />} />
         </Routes>
         <Footer />
       </Router>

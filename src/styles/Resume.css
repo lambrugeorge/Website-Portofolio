@@ -1,0 +1,45 @@
+.resume {
+       width: 100%;
+       min-height: calc(100vh - 100px);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 20px;
+       box-sizing: border-box;
+       background-color: #f9f9f9;
+       margin-top: 100px;
+     }
+     
+     .resume h1 {
+       color: #3e497a;
+       font-size: 2.5rem;
+       text-align: center;
+       margin-bottom: 20px;
+     }
+     
+     .resume-container {
+       text-align: center;
+     }
+     
+     .resume-image {
+       width: 100%;
+       max-width: 800px;
+       border-radius: 10px;
+       margin: 20px 0;
+       object-fit: cover;
+     }
+     
+     .download-link {
+       display: inline-block;
+       padding: 10px 20px;
+       font-size: 1.2rem;
+       color: #fff;
+       background-color: #3e497a;
+       border-radius: 5px;
+       text-decoration: none;
+     }
+     
+     .download-link:hover {
+       background-color: #2c3e50;
+     }
+     
