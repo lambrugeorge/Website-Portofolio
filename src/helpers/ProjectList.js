@@ -26,7 +26,7 @@ export const ProjectList = [
         image: Proj1,
         skills: "React, Redux, Firebase, React Router, TypeScript",
         github: "https://github.com/lambrugeorge/NexShop-clothes",
-        liveDemo: "https://adorable-cocada-a50fa9.netlify.app/"
+        liveDemo: "https://nexshop-xi.vercel.app/"
     },
     {
         name: 'JavaScript Web Projects: 20 Projects to Build',
