@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+}
+
+header, footer {
+  background-color: #3e497a;
+  color: white;
+  padding: 10px 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+.section {
+  padding: 40px 20px;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h1 {
+  color: #3e497a;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 1rem;
+  color: #555;
+}

@@ -7,10 +7,10 @@ import PaintCloneImage from "../assets/PaintCloneImage.jpeg";
 import SplashPageImage from "../assets/SplashPageImage.png";
 import DragAndDropImage from "../assets/DragAndDropImage.png";
 import CalculatorImage from "../assets/CalculatorImage.png";
-import JokeTellerImage from "../assets/JokeTellerImage.png";
-import MathSprintImage from "../assets/MathSprintGameImage.png"
-import NasaApodImage from "../assets/NasaApodImage.png";
-import SpockRockImage from "../assets/SpockRockImage.png";
+import JokeTellerImage from '../assets/JokeTellerImage.png';
+import MathSprintImage from '../assets/MathSprintGameImage.png';
+import NasaApodImage from '../assets/NasaApodImage.png';
+import SpockRockImage from '../assets/SpockRockImage.png';
 import VideoPlayerImage from "../assets/VideoPlayerImage.png";
 import MusicPlayerImage from "../assets/MusicPlayerImage.png";
 import LightDarkModeImage from "../assets/LightDarkModeImage.png";
@@ -19,14 +19,15 @@ import BookmarkAppImage from "../assets/BookmarkAppImage.png";
 import CustomCountdownImage from "../assets/CustomCountdownImage.png";
 import PictureInPictureImage from "../assets/PictureInPictureImage.png";
 import AnimatedTemplateImage from "../assets/AnimatedTemplateImage.png";
+import Proj5 from "../assets/Proj5.png";
 
 export const ProjectList = [
     {
-        name: 'NexShop-clothes',
-        image: Proj1,
-        skills: "React, Redux, Firebase, React Router, TypeScript",
-        github: "https://github.com/lambrugeorge/NexShop-clothes",
-        liveDemo: "https://nexshop-xi.vercel.app/"
+        name: 'Cipsim.ro (Client Project)',
+        image: Proj5,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        github: 'https://cipsim.ro/',
+        liveDemo: 'https://cipsim.ro/'
     },
     {
         name: 'JavaScript Web Projects: 20 Projects to Build',
@@ -63,22 +64,30 @@ export const ProjectList = [
             {
                 name: 'Joke Teller',
                 image: JokeTellerImage,
-                github: "https://github.com/lambrugeorge/Joke-Teller"
+                github: "https://github.com/lambrugeorge/Joke-Teller",
+                description: 'An app that tells random jokes using an API.',
+                demo: 'https://joke-teller-demo.com'
             },
             {
                 name: 'Math Sprint Game',
                 image: MathSprintImage,
-                github: "https://github.com/lambrugeorge/Math-Sprint-Game"
+                github: "https://github.com/lambrugeorge/Math-Sprint-Game",
+                description: 'A fun and educational game to improve math skills.',
+                demo: 'https://math-sprint-demo.com'
             },
             {
                 name: 'NASA APOD',
                 image: NasaApodImage,
-                github: "https://github.com/lambrugeorge/NASA-APOD"
+                github: "https://github.com/lambrugeorge/NASA-APOD",
+                description: 'An app that displays the Astronomy Picture of the Day from NASA.',
+                demo: 'https://nasa-apod-demo.com'
             },
             {
                 name: 'Spock Rock',
                 image: SpockRockImage,
-                github: "https://github.com/lambrugeorge/Spock-Rock"
+                github: "https://github.com/lambrugeorge/Spock-Rock",
+                description: 'A rock-paper-scissors game with a twist.',
+                demo: 'https://spock-rock-demo.com'
             },
             {
                 name: 'Video Player',
@@ -134,6 +143,14 @@ export const ProjectList = [
         image: Proj4,
         skills: "React, Tachyons, Clarifai API, Node.js, Express.js, Knex, Bcrypt, PostgreSQL",
         github: "https://github.com/lambrugeorge/face-recognition-brain",
-        liveDemo: "https://face-recognition-phi-henna.vercel.app/"
+        liveDemo: "https://face-recognition-phi-henna.vercel.app/",
+    },
+    {
+        name: 'NexShop-clothes',
+        image: Proj1,
+        skills: "React, Redux, Firebase, React Router, TypeScript",
+        github: "https://github.com/lambrugeorge/NexShop-clothes",
+        liveDemo: "https://nexshop-xi.vercel.app/"
     }
+,
 ];

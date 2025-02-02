@@ -11,7 +11,7 @@ import '../styles/Experience.css';
 import navalImage from '../assets/naval.jpg';
 import eproDesign from '../assets/eprodesign.png';
 import ztmImage from '../assets/ztm1.png';
-
+import topImage from '../assets/top.png'; // or the correct path to the image
 function Experience() {
   return (
     <div className='experience'>
@@ -46,7 +46,9 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          {/* spell-checker: disable */}
           <h3 className='vertical-timeline-element-title'>Naval Forces Non-Commissioned Officers School 'Admiral Ion Murgescu'</h3>
+          {/* spell-checker: enable */}
           <p>Military Petit Navy Officer</p>
           <p>Electrical Engineer</p>
         </VerticalTimelineElement>
@@ -76,17 +78,25 @@ function Experience() {
         {/* Education - Frontend Developer Courses */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
-          date="2023 - Present"
+          date="2023 - 2024"
           iconStyle={{ background: "#ffff", color: "#fff" }}  
           icon={<img src={ztmImage} alt="ZTM Icon" className="ztm" />}
         >
           <h3 className='vertical-timeline-element-title'>Frontend Developer Courses</h3>
-          <p>Zero To Mastery Academy</p>
           <p>Complete Web Developer in 2024</p>
           <p>JavaScript: The Advanced Concepts, Frontend</p>
           <p>Complete React Developer in 2024 (w/ Redux, Hooks, GraphQL)</p>
           <p>JavaScript Web Projects: 20 Projects to Build Your Portfolio</p>
-          <p>The Complete Junior to Senior Web Developer Roadmap (2024)</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--education'
+          date="2024 - Present"
+          iconStyle={{ background: "#ffff", color: "#fff" }}  
+          icon={<img src={topImage} alt="ZTM Icon" className="ztm" />}
+        >
+          <h3 className='vertical-timeline-element-title'>The Odin Project</h3>
+          <p>Full Stack JavaScript Course</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
