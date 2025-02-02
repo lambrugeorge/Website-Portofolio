@@ -11,7 +11,7 @@ import '../styles/Experience.css';
 import navalImage from '../assets/naval.jpg';
 import eproDesign from '../assets/eprodesign.png';
 import ztmImage from '../assets/ztm1.png';
-import topImage from '../assets/top.png'; // or the correct path to the image
+import topImage from '../assets/top.png';
 function Experience() {
   return (
     <div className='experience'>
@@ -46,9 +46,7 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          {/* spell-checker: disable */}
           <h3 className='vertical-timeline-element-title'>Naval Forces Non-Commissioned Officers School 'Admiral Ion Murgescu'</h3>
-          {/* spell-checker: enable */}
           <p>Military Petit Navy Officer</p>
           <p>Electrical Engineer</p>
         </VerticalTimelineElement>
