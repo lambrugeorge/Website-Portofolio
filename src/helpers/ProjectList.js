@@ -20,13 +20,21 @@ import CustomCountdownImage from "../assets/CustomCountdownImage.png";
 import PictureInPictureImage from "../assets/PictureInPictureImage.png";
 import AnimatedTemplateImage from "../assets/AnimatedTemplateImage.png";
 import Proj5 from "../assets/Proj5.png";
+import Proj6 from "../assets/Proj6.png";
 
 export const ProjectList = [
     {
-        name: 'Cipsim.ro (Client Project)',
+        name: 'Mline (Client Project)',
+        image: Proj6,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://mline.ro/',
+        liveDemo: 'https://mline.ro/'
+    },
+    {
+        name: 'Cipsim (Client Project)',
         image: Proj5,
         skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
-        github: 'https://cipsim.ro/',
+        Site: 'https://cipsim.ro/',
         liveDemo: 'https://cipsim.ro/'
     },
     {
