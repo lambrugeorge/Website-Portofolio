@@ -7,16 +7,16 @@
 
 
 .profile-picture {
-  width: 150px; /* Poți ajusta dimensiunea după necesități */
-  height: 150px; /* Poți ajusta dimensiunea după necesități */
-  border-radius: 50%; /* Face imaginea rotundă */
-  border: 3px solid #e9d35b; /* Adaugă un border galben */
-  object-fit: cover; /* Asigură că imaginea se va ajusta corect în container */
-  transition: transform 0.3s ease-in-out; /* Adaugă o tranziție ușoară */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #e9d35b; 
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
 }
 
 .profile-picture:hover {
-  transform: scale(1.05); /* Mică animație la hover */
+  transform: scale(1.05); 
 }
 .about {
   width: 100%;
