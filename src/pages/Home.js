@@ -3,11 +3,18 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Home.css';
+import profile from '../assets/profile.jpg'; // Import the profile image
+
 
 function Home() {
   return (
     <div className='home'>
       <div className='about'>
+        <img 
+          src={profile} 
+          alt="Profile" 
+          className="profile-picture"
+        />
         <h2>Hi, I'm Adrian</h2>
         <p>Frontend Developer passionate about building user-friendly applications.</p>
         <div className='social-links'>
