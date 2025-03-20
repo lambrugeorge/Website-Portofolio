@@ -1,0 +1,197 @@
+.home {
+  width: 100%;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  color: #3e497a;
+}
+
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #e9d35b; 
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-picture:hover {
+  transform: scale(1.05); 
+}
+.about {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #21325e;
+  color: #f0f0f0;
+}
+
+.about h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  color: #e9d35b;
+  margin-bottom: 20px;
+}
+
+.about .prompt p {
+  font-size: 1.5rem;
+  color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+.about .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about .social-links a {
+  color: #e9d35b;
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.about .social-links a:hover {
+  color: #c3cfe2;
+}
+
+.skills {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.skills h1 {
+  font-size: 2.5rem;
+  color: #3e497a;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  color: #3e497a;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.prompt {
+  width: 40%;
+  font-size: 30px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  font-size: 60px;
+  color: white;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-links a:hover {
+  color: #e9d35b;
+  transform: scale(1.2);
+}
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills h1 {
+  color: #3e497a;
+  margin-bottom: 20px;
+}
+
+.category {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.category h2 {
+  font-size: 30px;
+  color: #3e497a;
+  margin-bottom: 10px;
+}
+
+.category p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.projects, .experience {
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.projects h1, .experience h1 {
+  color: #3e497a;
+  margin-bottom: 20px;
+}
+
+.projects p, .experience p {
+  font-size: 20px;
+  color: #4a4a4a;
+}
+
+.projects:hover, .experience:hover {
+  background-color: #f0f0f0;
+  color: #3e497a;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .about h2 {
+    font-size: 2.5rem;
+  }
+
+  .about .prompt p {
+    font-size: 1.2rem;
+  }
+
+  .skills h1 {
+    font-size: 2rem;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
