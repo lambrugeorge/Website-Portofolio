@@ -5,7 +5,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import '../styles/Home.css';
 import profile from '../assets/profile.jpg'; // Import the profile image
 
-
 function Home() {
   return (
     <div className='home'>
@@ -16,7 +15,7 @@ function Home() {
           className="profile-picture"
         />
         <h2>Hi, I'm Adrian</h2>
-        <p>Frontend Developer passionate about building user-friendly applications.</p>
+        <p>Web Developer passionate about building user-friendly applications.</p>
         <div className='social-links'>
           <a href="https://www.linkedin.com/in/lambru-adrian/" target="_blank" rel="noopener noreferrer">
             <LinkedInIcon />
@@ -33,12 +32,24 @@ function Home() {
         <h1>Skills</h1>
         <div className='skills-container'>
           <div className='card'>
-            <h2>Frontend</h2>
-            <p>HTML, CSS, JavaScript ES6+, React, Material UI, Redux, Jest, PWAs</p>
+            <h2>Security Operations & SOC</h2>
+            <p>SIEM (Splunk, ELK), MITRE ATT&CK, Alert Triage, Endpoint & Network Monitoring, Digital Forensics</p>
           </div>
           <div className='card'>
-            <h2>Backend</h2>
-            <p>Node.js, REST APIs, Firebase</p>
+            <h2>Threat Intelligence & Investigation</h2>
+            <p>OSINT, YARA, MISP, Phishing Analysis</p>
+          </div>
+          <div className='card'>
+            <h2>Web Security & Pentesting</h2>
+            <p>OWASP Top 10, Burp Suite, SQLi, XSS, Authentication Bypass</p>
+          </div>
+          <div className='card'>
+            <h2>Programming & Web Development</h2>
+            <p>HTML, CSS, Material UI, JavaScript (ES6+), React.js, Node.js, PHP, WordPress, MySQL, REST APIs</p>
+          </div>
+          <div className='card'>
+            <h2>Operating Systems & Tools</h2>
+            <p>Linux, Windows, CLI, Git, GitHub</p>
           </div>
           <div className='card'>
             <h2>Languages</h2>

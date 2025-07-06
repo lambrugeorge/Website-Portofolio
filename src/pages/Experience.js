@@ -1,4 +1,3 @@
-import React from 'react';
 import { 
   VerticalTimeline,
   VerticalTimelineElement
@@ -11,7 +10,8 @@ import '../styles/Experience.css';
 import navalImage from '../assets/naval.jpg';
 import eproDesign from '../assets/eprodesign.png';
 import ztmImage from '../assets/ztm1.png';
-import topImage from '../assets/top.png';
+// import topImage from '../assets/top.png'; // Removed unused import
+import thmImage from '../assets/thm.png';
 function Experience() {
   return (
     <div className='experience'>
@@ -46,8 +46,8 @@ function Experience() {
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
+          {/* eslint-disable-next-line */}
           <h3 className='vertical-timeline-element-title'>Naval Forces Non-Commissioned Officers School 'Admiral Ion Murgescu'</h3>
-          <p>Military Petit Navy Officer</p>
           <p>Electrical Engineer</p>
         </VerticalTimelineElement>
 
@@ -60,17 +60,6 @@ function Experience() {
         >
           <h3 className='vertical-timeline-element-title'>Petit Navy Officer</h3>
           <p>Navigator Navy</p>
-        </VerticalTimelineElement>
-
-        {/* Work Experience - Web Developer */}
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--work'
-          date="2024 - Present"
-          iconStyle={{ background: "#ffff", color: "#fff" }}  
-          icon={<img src={eproDesign} alt="Nava Icon" className="vertical-timeline-element-icon" />} 
-        >
-          <h3 className='vertical-timeline-element-title'>Web Developer at e-ProDesign</h3>
-          <p>Working as a web developer, focusing on building responsive and user-friendly websites.</p>
         </VerticalTimelineElement>
 
         {/* Education - Frontend Developer Courses */}
@@ -89,12 +78,24 @@ function Experience() {
 
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
+          date="2025 - Present"
+          iconStyle={{ background: "#ffff", color: "#fff" }}  
+          icon={<img src={thmImage} alt="ZTM Icon" className="ztm" />}
+        >
+          <h3 className='vertical-timeline-element-title'>Try Hack Me</h3>
+          {/* eslint-disable-next-line */}
+          <p>SOC L1 & Web Fundamentals(Pentest)</p>
+        </VerticalTimelineElement>
+
+             {/* Work Experience - Web Developer */}
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work'
           date="2024 - Present"
           iconStyle={{ background: "#ffff", color: "#fff" }}  
-          icon={<img src={topImage} alt="ZTM Icon" className="ztm" />}
+          icon={<img src={eproDesign} alt="Nava Icon" className="vertical-timeline-element-icon" />} 
         >
-          <h3 className='vertical-timeline-element-title'>The Odin Project</h3>
-          <p>Full Stack JavaScript Course</p>
+          <h3 className='vertical-timeline-element-title'>Web Developer at e-ProDesign</h3>
+          <p>Working as a web developer, focusing on building responsive and user-friendly websites.</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
