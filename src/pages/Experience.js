@@ -1,3 +1,4 @@
+import React from 'react';
 import { 
   VerticalTimeline,
   VerticalTimelineElement
@@ -10,14 +11,19 @@ import '../styles/Experience.css';
 import navalImage from '../assets/naval.jpg';
 import eproDesign from '../assets/eprodesign.png';
 import ztmImage from '../assets/ztm1.png';
-// import topImage from '../assets/top.png'; // Removed unused import
 import thmImage from '../assets/thm.png';
+
 function Experience() {
+  const links = {
+    tryHackMePdf: 'https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-AKFX75FVJQ.pdf',
+    tryHackMePath: 'https://tryhackme.com/path/outline/soclevel1',
+    linkedinCerts: 'https://www.linkedin.com/in/lambru-adrian/details/certifications/'
+  };
+
   return (
     <div className='experience'>
       <VerticalTimeline lineColor='#3e497a'>
-        
-        {/* High School Experience */}
+
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
           date="2011 - 2015"
@@ -28,7 +34,6 @@ function Experience() {
           <p>High School</p>
         </VerticalTimelineElement>
 
-        {/* Work Experience - Restaurant */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--work'
           date="2016 - 2021"
@@ -39,63 +44,69 @@ function Experience() {
           <p>Restaurant</p>
         </VerticalTimelineElement>
 
-        {/* Education - Military Training */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
           date="2021 - 2023"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
-          {/* eslint-disable-next-line */}
           <h3 className='vertical-timeline-element-title'>Naval Forces Non-Commissioned Officers School 'Admiral Ion Murgescu'</h3>
           <p>Electrical Engineer</p>
         </VerticalTimelineElement>
 
-        {/* Work Experience - Petit Navy Officer */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--work'
           date="2021 - 2024"
-          iconStyle={{ background: "#ffff", color: "#fff" }}
+          iconStyle={{ background: "#fff", color: "#000" }}
           icon={<img src={navalImage} alt="Nava Icon" className="vertical-timeline-element-icon" />} 
         >
           <h3 className='vertical-timeline-element-title'>Petit Navy Officer</h3>
           <p>Navigator Navy</p>
         </VerticalTimelineElement>
 
-        {/* Education - Frontend Developer Courses */}
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
           date="2023 - 2024"
-          iconStyle={{ background: "#ffff", color: "#fff" }}  
+          iconStyle={{ background: "#fff", color: "#000" }}  
           icon={<img src={ztmImage} alt="ZTM Icon" className="ztm" />}
         >
           <h3 className='vertical-timeline-element-title'>Frontend Developer Courses</h3>
-          <p>Complete Web Developer in 2024</p>
-          <p>JavaScript: The Advanced Concepts, Frontend</p>
-          <p>Complete React Developer in 2024 (w/ Redux, Hooks, GraphQL)</p>
-          <p>JavaScript Web Projects: 20 Projects to Build Your Portfolio</p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.linkedinCerts} target="_blank" rel="noopener noreferrer">Complete Web Developer – Zero To Mastery (December 2023)</a>
+          </p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.linkedinCerts} target="_blank" rel="noopener noreferrer">JavaScript: The Advanced Concepts – Zero To Mastery (April 2024)</a>
+          </p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.linkedinCerts} target="_blank" rel="noopener noreferrer">Complete React Developer in 2024 (w/ Redux, Hooks, GraphQL) – Zero To Mastery (June 2024)</a>
+          </p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.linkedinCerts} target="_blank" rel="noopener noreferrer">JavaScript Web Projects – Zero To Mastery (July 2024)</a>
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
+          className='vertical-timeline-element--work'
+          date="2024 - Present"
+          iconStyle={{ background: "#fff", color: "#000" }}  
+          icon={<img src={eproDesign} alt="eProDesign Icon" className="vertical-timeline-element-icon" />} 
+        >
+          <h3 className='vertical-timeline-element-title'>Web Developer at e-ProDesign</h3>
+          <p>Full-time web developer, building responsive and user-friendly websites. Managing multiple projects including site optimization, malware cleanup, and implementing basic web security measures.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
           className='vertical-timeline-element--education'
           date="2025 - Present"
-          iconStyle={{ background: "#ffff", color: "#fff" }}  
-          icon={<img src={thmImage} alt="ZTM Icon" className="ztm" />}
+          iconStyle={{ background: "#fff", color: "#000" }}  
+          icon={<img src={thmImage} alt="THM Icon" className="ztm" />}
         >
-          <h3 className='vertical-timeline-element-title'>Try Hack Me</h3>
-          {/* eslint-disable-next-line */}
-          <p>SOC L1 & Web Fundamentals(Pentest)</p>
-        </VerticalTimelineElement>
-
-             {/* Work Experience - Web Developer */}
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--work'
-          date="2024 - Present"
-          iconStyle={{ background: "#ffff", color: "#fff" }}  
-          icon={<img src={eproDesign} alt="Nava Icon" className="vertical-timeline-element-icon" />} 
-        >
-          <h3 className='vertical-timeline-element-title'>Web Developer at e-ProDesign</h3>
-          <p>Working as a web developer, focusing on building responsive and user-friendly websites.</p>
+          <h3 className='vertical-timeline-element-title'>TryHackMe Premium Courses</h3>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>SOC L1 & Web Fundamentals (Pentest)</p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0', color: '#cc0000' }}>SOC Level 1 – TryHackMe (Path course in progress)</p>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.tryHackMePdf} target="_blank" rel="noopener noreferrer">Web Fundamentals – TryHackMe (Certificate PDF)</a>
+          </p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>

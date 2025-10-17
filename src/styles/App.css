@@ -1,8 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   color: #333;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 header, footer {
@@ -13,14 +20,32 @@ header, footer {
 
 main {
   padding: 20px;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .section {
   padding: 40px 20px;
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 20px 15px;
+    margin: 15px auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 15px 10px;
+    margin: 10px auto;
+  }
 }
 
 .section h1 {

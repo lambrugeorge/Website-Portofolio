@@ -1,5 +1,6 @@
 .project {
   width: 100%;
+  max-width: 100%;
   min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -8,6 +9,7 @@
   box-sizing: border-box;
   background-color: #f9f9f9;
   margin-top: 100px;
+  overflow-x: hidden;
 }
 
 .project h1 {
@@ -43,6 +45,8 @@
   width: 100%;
   max-width: 800px;
   margin: 20px 0;
+  box-sizing: border-box;
+  padding: 0 10px;
 }
 
 .subProjects h2 {
@@ -59,6 +63,8 @@
   overflow: hidden;
   padding: 10px;
   text-align: center;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 
 .subProject h3 {
@@ -84,7 +90,21 @@
   text-decoration: underline;
 }
 
+@media only screen and (max-width: 768px) {
+  .project {
+    padding: 15px;
+  }
+
+  .subProjects {
+    padding: 0 5px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
+  .project {
+    padding: 10px;
+  }
+
   .project h1 {
     font-size: 2rem;
   }
@@ -97,8 +117,16 @@
     font-size: 2rem;
   }
 
+  .subProjects {
+    padding: 0;
+  }
+
   .subProjects h2 {
     font-size: 1.5rem;
+  }
+
+  .subProject {
+    padding: 8px;
   }
 
   .subProject h3 {

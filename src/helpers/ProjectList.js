@@ -22,8 +22,104 @@ import AnimatedTemplateImage from "../assets/AnimatedTemplateImage.png";
 import Proj5 from "../assets/Proj5.png";
 import Proj6 from "../assets/Proj6.png";
 import Proj7 from "../assets/Proj7.png";
+import Proj8 from "../assets/Proj8.png";
+import Proj9 from "../assets/Proj9.png";
+import Proj10 from "../assets/Proj10.png";
+import Proj11 from "../assets/Proj11.png";
+import Proj12 from "../assets/Proj12.png";
+import Proj13 from "../assets/Proj13.png";
+import Proj14 from "../assets/Proj14.png";
+import Proj15 from "../assets/Proj15.png";
+import Proj16 from "../assets/Proj16.png";
+import Proj17 from "../assets/Proj17.png";
+import Proj18 from "../assets/Proj18.png";
+import Proj19 from "../assets/Proj19.png";
 
 export const ProjectList = [
+    {
+        name: 'E-ProDesign Portfolio',
+        image: Proj8,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Portfolio Management',
+        Site: 'https://e-prodesign.net/portofoliu/',
+        liveDemo: 'https://e-prodesign.net/portofoliu/'
+    },
+    {
+        name: 'Urban Warrior Gym',
+        image: Proj9,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://urbanwarriorgym.ro/',
+        liveDemo: 'https://urbanwarriorgym.ro/'
+    },
+    {
+        name: 'Eco Dunarea Braila Calendar',
+        image: Proj10,
+        skills: 'Custom Calendar Development, PHP, JS, CSS, MySQL',
+        Site: 'https://ecodunareabraila.ro/calendar',
+        liveDemo: 'https://ecodunareabraila.ro/calendar'
+    },
+    {
+        name: 'Restaurant Continental',
+        image: Proj11,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://www.restaurantcontinental.ro/',
+        liveDemo: 'https://www.restaurantcontinental.ro/'
+    },
+    {
+        name: 'Restaurant La Fenice',
+        image: Proj12,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://restaurantlafenice.ro/',
+        liveDemo: 'https://restaurantlafenice.ro/'
+    },
+    {
+        name: 'EST Cars',
+        image: Proj13,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://estcars.com/',
+        liveDemo: 'https://estcars.com/'
+    },
+    {
+        name: 'Bio Construct',
+        image: Proj14,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://bioconstruct.ro/',
+        liveDemo: 'https://bioconstruct.ro/'
+    },
+    {
+        name: 'Trebi Juridice',
+        image: Proj15,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://trebijuridice.ro/',
+        liveDemo: 'https://trebijuridice.ro/'
+    },
+    {
+        name: 'Marian Sintion',
+        image: Proj16,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://mariansintion.ro/',
+        liveDemo: 'https://mariansintion.ro/'
+    },
+    {
+        name: 'A4A Putere',
+        image: Proj17,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://www.a4aputere.ro/',
+        liveDemo: 'https://www.a4aputere.ro/'
+    },
+    {
+        name: 'Dupa Gratii',
+        image: Proj18,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://dupagratii.ro/',
+        liveDemo: 'https://dupagratii.ro/'
+    },
+    {
+        name: 'Abuzuri Judiciare',
+        image: Proj19,
+        skills: 'Wordpress, PHP, JS, CSS, cPanel, Elementor',
+        Site: 'https://abuzuri-judiciare.ro/',
+        liveDemo: 'https://abuzuri-judiciare.ro/'
+    },
     {
         name: 'Vows Events',
         image: Proj7,

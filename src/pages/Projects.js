@@ -17,7 +17,7 @@ function Projects() {
             {project.github && (
               <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
             )}
-            <a href={project.liveDemo || project.Site} target="_blank" rel="noopener noreferrer">Live Demo</a>
+            <a href={project.liveDemo || project.Site} target="_blank" rel="noopener noreferrer">Live</a>
           </div>
         ))}
       </div>

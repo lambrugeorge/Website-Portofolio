@@ -1,5 +1,6 @@
 .resume {
   width: 100%;
+  max-width: 100%;
   min-height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -8,6 +9,7 @@
   box-sizing: border-box;
   background-color: #f9f9f9;
   margin-top: 100px;
+  overflow-x: hidden;
 }
 
 .resume h1 {
@@ -47,6 +49,10 @@
 
 /* Media Queries */
 @media (max-width: 768px) {
+  .resume {
+    padding: 15px;
+  }
+
   .resume h1 {
     font-size: 2rem;
   }
@@ -58,6 +64,10 @@
 }
 
 @media (max-width: 480px) {
+  .resume {
+    padding: 10px;
+  }
+
   .resume h1 {
     font-size: 1.5rem;
   }

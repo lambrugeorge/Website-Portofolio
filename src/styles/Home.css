@@ -1,8 +1,10 @@
 .home {
   width: 100%;
+  max-width: 100%;
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
+  overflow-x: hidden;
 }
 
 
@@ -64,6 +66,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 40px 20px;
+  box-sizing: border-box;
 }
 
 .skills h1 {
@@ -155,8 +158,10 @@
 
 .projects, .experience {
   width: 100%;
+  max-width: 100%;
   text-align: center;
-  padding: 50px 0;
+  padding: 50px 20px;
+  box-sizing: border-box;
 }
 
 .projects h1, .experience h1 {
@@ -178,6 +183,16 @@
 
 
 /* Media Queries */
+@media only screen and (max-width: 768px) {
+  .skills {
+    padding: 30px 15px;
+  }
+
+  .projects, .experience {
+    padding: 40px 15px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .about h2 {
     font-size: 2.5rem;
@@ -187,11 +202,30 @@
     font-size: 1.2rem;
   }
 
+  .skills {
+    padding: 20px 10px;
+  }
+
   .skills h1 {
     font-size: 2rem;
   }
 
   .card {
     width: 100%;
+    max-width: 100%;
+  }
+
+  .projects, .experience {
+    padding: 30px 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .skills {
+    padding: 15px 10px;
+  }
+
+  .projects, .experience {
+    padding: 20px 10px;
   }
 }
