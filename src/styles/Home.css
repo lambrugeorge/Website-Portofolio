@@ -1,7 +1,5 @@
 .home {
   width: 100%;
-  max-width: 100%;
-  align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
   overflow-x: hidden;
@@ -63,10 +61,12 @@
 
 .skills {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 40px 20px;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .skills h1 {
@@ -76,6 +76,8 @@
 }
 
 .skills-container {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -109,8 +111,13 @@
 }
 
 .prompt {
-  width: 40%;
   font-size: 30px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .social-links a {
@@ -123,20 +130,6 @@
 .social-links a:hover {
   color: #e9d35b;
   transform: scale(1.2);
-}
-
-.skills {
-  font-size: 35px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-.skills h1 {
-  color: #3e497a;
-  margin-bottom: 20px;
 }
 
 .category {
@@ -184,26 +177,43 @@
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-  .skills {
-    padding: 30px 15px;
+  .about h2 {
+    font-size: 30px;
   }
 
-  .projects, .experience {
-    padding: 40px 15px;
+  .about .social-links a {
+    font-size: 50px;
+  }
+
+  .card {
+    width: calc(50% - 10px);
+  }
+
+  .category {
+    width: 90%;
   }
 }
 
 @media only screen and (max-width: 600px) {
+  .about {
+    height: auto;
+    padding: 40px 20px;
+  }
+
   .about h2 {
     font-size: 2.5rem;
   }
 
-  .about .prompt p {
-    font-size: 1.2rem;
+  .about p {
+    font-size: 1rem;
   }
 
-  .skills {
-    padding: 20px 10px;
+  .about .social-links {
+    gap: 15px;
+  }
+
+  .about .social-links a {
+    font-size: 40px;
   }
 
   .skills h1 {
@@ -215,17 +225,37 @@
     max-width: 100%;
   }
 
+  .category {
+    width: 100%;
+  }
+
   .projects, .experience {
     padding: 30px 10px;
   }
 }
 
 @media only screen and (max-width: 480px) {
-  .skills {
-    padding: 15px 10px;
+  .about h2 {
+    font-size: 1.8rem;
   }
 
-  .projects, .experience {
-    padding: 20px 10px;
+  .about .social-links a {
+    font-size: 35px;
+  }
+
+  .skills h1 {
+    font-size: 1.5rem;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
   }
 }

@@ -1,3 +1,4 @@
+/* cSpell:ignore noopener noreferrer */
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { ProjectList } from '../helpers/ProjectList';

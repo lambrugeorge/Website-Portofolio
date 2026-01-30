@@ -1,3 +1,4 @@
+/* cSpell:ignore noopener noreferrer */
 import React from 'react';
 import { ProjectList } from '../helpers/ProjectList';
 import '../styles/Projects.css';

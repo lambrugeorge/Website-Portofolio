@@ -1,5 +1,4 @@
 import React from 'react';
-import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -12,9 +11,6 @@ function Footer() {
         <a href="https://www.facebook.com/lambrugeorge/" target="_blank" rel="noopener noreferrer" className="social-icon">
           <FacebookIcon />
         </a>
-        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="social-icon">
-          <InstagramIcon />
-        </a>
         <a href="https://github.com/lambrugeorge" target="_blank" rel="noopener noreferrer" className="social-icon">
           <GitHubIcon />
         </a>
@@ -22,7 +18,7 @@ function Footer() {
           <LinkedInIcon />
         </a>
       </div>
-      <p>&copy; 2025 Lambru A.</p>
+      <p>&copy; 2026 Lambru A.</p>
     </footer>
   );
 }

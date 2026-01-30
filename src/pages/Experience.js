@@ -1,3 +1,4 @@
+/* cSpell:ignore Murgescu noopener noreferrer Pentest */
 import React from 'react';
 import { 
   VerticalTimeline,
@@ -40,7 +41,7 @@ function Experience() {
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
-          <h3 className='vertical-timeline-element-title'>Like Cook</h3>
+          <h3 className='vertical-timeline-element-title'>Cook</h3>
           <p>Restaurant</p>
         </VerticalTimelineElement>
 
@@ -51,7 +52,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className='vertical-timeline-element-title'>Naval Forces Non-Commissioned Officers School 'Admiral Ion Murgescu'</h3>
-          <p>Electrical Engineer</p>
+          <p>Electrical Technician Level 5</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -86,27 +87,25 @@ function Experience() {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
+          className='vertical-timeline-element--education'
+          date="2025"
+          iconStyle={{ background: "#fff", color: "#000" }}  
+          icon={<img src={thmImage} alt="THM Icon" className="ztm" />}
+        >
+          <h3 className='vertical-timeline-element-title'>TryHackMe Premium Courses</h3>
+          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
+            <a href={links.tryHackMePdf} target="_blank" rel="noopener noreferrer">Web Fundamentals – TryHackMe (Certificate PDF)</a>
+          </p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement 
           className='vertical-timeline-element--work'
           date="2024 - Present"
           iconStyle={{ background: "#fff", color: "#000" }}  
           icon={<img src={eproDesign} alt="eProDesign Icon" className="vertical-timeline-element-icon" />} 
         >
-          <h3 className='vertical-timeline-element-title'>Web Developer at e-ProDesign</h3>
-          <p>Full-time web developer, building responsive and user-friendly websites. Managing multiple projects including site optimization, malware cleanup, and implementing basic web security measures.</p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement 
-          className='vertical-timeline-element--education'
-          date="2025 - Present"
-          iconStyle={{ background: "#fff", color: "#000" }}  
-          icon={<img src={thmImage} alt="THM Icon" className="ztm" />}
-        >
-          <h3 className='vertical-timeline-element-title'>TryHackMe Premium Courses</h3>
-          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>SOC L1 & Web Fundamentals (Pentest)</p>
-          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0', color: '#cc0000' }}>SOC Level 1 – TryHackMe (Path course in progress)</p>
-          <p style={{ fontSize: '0.85rem', lineHeight: '1.2rem', margin: '2px 0' }}>
-            <a href={links.tryHackMePdf} target="_blank" rel="noopener noreferrer">Web Fundamentals – TryHackMe (Certificate PDF)</a>
-          </p>
+          <h3 className='vertical-timeline-element-title'>WordPress Developer & Database Administrator at e-ProDesign</h3>
+          <p><strong>Full-time</strong> WordPress and database administrator, designing and maintaining robust, scalable WordPress installations. Developing custom themes and plugins, optimizing database performance, managing site security and malware remediation, and ensuring seamless user experiences across multiple client projects.</p>
         </VerticalTimelineElement>
 
       </VerticalTimeline>
